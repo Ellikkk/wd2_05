@@ -20,47 +20,86 @@
   --bs-body-font-family: 'Inter', sans-serif;
   --bs-h1-font-family: 'Inter', sans-serif;
   --bs-h1-font-weight: 800;
-  --bs-btn-background-color: hsl(5, 85%, 63%);
+  --bs-p-fons-size: 15px;
 
+  --SoftRed: hsl(5, 85%, 63%);
+  --SoftOrange: hsl(35, 77%, 62%);
+  --Off-white: hsl(36, 100%, 99%); 
+    --blue: hsl(233, 8%, 79%); 
+    --DarkGrayish: hsl(236, 13%, 42%); 
+    --VeryDarkBlue: hsl(240, 100%, 5%); 
 } 
+
 
 h1 {
     font-weight: 800;
-    color:  hsl(240, 100%, 5%);
+    color:  var(--VeryDarkBlue);
+    font-size: 75px;
 }
 
 .fs-1 {
-    color: hsl(35, 77%, 62%);
+    color: var(--SoftOrange);
     font-weight: 700;
 }
 
 .fs-5{
-    color: hsl(36, 100%, 99%);
+    color: var(--Off-white);
+}
+
+.fs-5:hover {
+    color:var(--SoftOrange);
 }
 
 a {
     text-decoration: none;
-    color: hsl(36, 100%, 99%);
+    color: var(--Off-white);
     font-weight: 700;
 }
 
-a:hover {
-    color: hsl(35, 77%, 62%);
-}
 
 .card {
     border-radius: 0;
-    background-color: hsl(240, 100%, 5%);
-    width: 300px;
+    background-color: var(--VeryDarkBlue);
+    width: 320px;
 }
 
+.title {
+    color: var(--VeryDarkBlue);
+}
 
-p .paragraph{
-    color: hsl(233, 8%, 79%);
+.title:hover {
+    color: var(--SoftRed);
+}
+
+.numera {
+    color: var(--blue);
+}
+
+.paragraph {
+    color: var(--blue);
+}
+
+.text {
+    color: var(--DarkGrayish);
+}
+
+.nav-link:hover {
+    color: var(--SoftRed);
+}
+
+.btn {
+    width: 200px;
+    background-color: var(--SoftRed);
+    border-radius: 0;
+    margin: 20px;
+    color: var(--Off-white);
+    padding: 15px;
+    text-transform: uppercase;
     font-size: 15px;
+    font-weight: 700;
 }
 
- a .links-card {
-    color: hsl(240, 100%, 5%);
+.btn:hover {
+    background-color: var(--VeryDarkBlue);
+    color: var(--Off-white);
 }
-
