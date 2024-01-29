@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype'), 
+}
+@font-face {
+    font-family: 'Inter';
+    font-weight: 700;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype'), 
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 800;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype'), 
+}
+
+:root
+ {
+  --bs-body-font-family: 'Inter', sans-serif;
+  --bs-h1-font-family: 'Inter', sans-serif;
+  --bs-h1-font-weight: 800;
+  --bs-btn-background-color: hsl(5, 85%, 63%);
+
+} 
+
+h1 {
+    font-weight: 800;
+    color:  hsl(240, 100%, 5%);
+}
+
+.fs-1 {
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+}
+
+.fs-5{
+    color: hsl(36, 100%, 99%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+}
+
+a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.card {
+    border-radius: 0;
+    background-color: hsl(240, 100%, 5%);
+    width: 300px;
+}
+
+
+p .paragraph{
+    color: hsl(233, 8%, 79%);
+    font-size: 15px;
+}
+
+ a .links-card {
+    color: hsl(240, 100%, 5%);
+}
+
